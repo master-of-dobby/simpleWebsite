@@ -84,6 +84,14 @@
   margin: 0 auto;
 }
 
+.album {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 33%;
+}
+
 /* .albums {
     flex: 0 0 calc(33.33% - 5px); 
     box-sizing: border-box;
@@ -201,6 +209,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-basis: 100%;
   }
 
   .navBar {
