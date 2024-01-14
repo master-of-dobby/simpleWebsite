@@ -196,12 +196,12 @@
 @media (max-width: 400px) {
   .search .formS #image,
   #desc {
-    width: 150%;
+    width: 130%;
     margin: 0.5rem;
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 500px) {
   .album {
     position: relative;
     width: 100%;
