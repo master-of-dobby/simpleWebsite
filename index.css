@@ -193,10 +193,17 @@
   width: 60%;
 }
 
+
+
 @media (max-width: 400px) {
+  /* Make the search form stack horizontally on small screens */
+  /* .search .formS {
+    flex-direction: row;
+    } */
+
   .search .formS #image,
   #desc {
-    width: 130%;
+    width: 120%;
     margin: 0.5rem;
   }
 }
