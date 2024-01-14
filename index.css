@@ -78,14 +78,21 @@
 
 .container{
     height: 100%;
-    width: 90%;
-    display: grid;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     gap: 5px;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
 }
 
+
+
+/* .albums {
+    flex: 0 0 calc(33.33% - 5px); 
+    box-sizing: border-box;
+} */
 .container .gridOfImgs{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -127,8 +134,7 @@
     background-color: darkslategray;
     height: 100px;
     color: white;
-
-
+    width: 400px;
 }
 
 .footerOfAlb .f1{
@@ -151,7 +157,60 @@
     color: yellow;
 }
 
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslategray;
+    height: 10rem;
+    margin: 2rem;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.search .formS{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    color: white;
+    padding: 0.1rem;
+    align-items: center;
+}
+
+.search .formS #image, #desc{
+    width: 180%;
+    margin: 0.5rem;
+}
+
+.search .formS .btn{
+   font-weight: bold;
+   border: none;
+   border-radius: 3px;
+   height: 2.5vh;
+   width: 60%;
+
+}
+
+@media (max-width:400px) {
+
+    .search .formS #image, #desc{
+        width: 150%;
+        margin: 0.5rem;
+    }
+}
+
 @media(max-width:550px){
+
+    .album {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     .navBar{
         background-color:darkslategray;
         color: white;
@@ -212,6 +271,8 @@
         margin-top: 10px;
         
     }
+
+    
 
 
 }
