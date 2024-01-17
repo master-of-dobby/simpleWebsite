@@ -1,0 +1,23 @@
+{
+  "name": "myreact1",
+  "version": "1.0.0",
+  "description": "Learning React",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel hello.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/master-of-dobby/simpleWebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/master-of-dobby/simpleWebsite/issues"
+  },
+  "homepage": "https://github.com/master-of-dobby/simpleWebsite#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
